@@ -1,0 +1,402 @@
+*, p {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+ body {
+     background: #000;
+     color: #fff;
+}
+ button {
+     cursor: pointer;
+}
+ .container {
+     max-width: 1223px;
+}
+.wrapper-dates {
+    display: flex;
+}
+/* ============================== Page 1 ============================== */
+/* ==== top section ==== */
+ body.zoom-133 section.top-section .swiper, body.zoom-101 section.top-section .swiper {
+     max-width: 60%;
+}
+ body.zoom-150 section.top-section .swiper, body.zoom-100 section.top-section .swiper {
+     max-width: 59%;
+}
+ body.zoom-200 section.top-section .swiper {
+     max-width: 56.5%;
+}
+ section.top-section {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     min-height: 37vw;
+     max-width: 1199px;
+     margin: auto;
+}
+ section.top-section .left-col p {
+     font-size: 25px;
+     line-height: 32px;
+     text-transform: uppercase;
+     font-family: "Montserrat", sans-serif;
+}
+ section.top-section .left-col span {
+     display: block;
+}
+ section.top-section .left-col .logo {
+     width: 315px;
+     heigth: 92px;
+}
+ section.top-section .swiper {
+     position: absolute;
+     top: 0;
+     right: 0;
+     z-index: 999999;
+     max-width: 912px;
+     width: 100%;
+     background: url(../images/banner.svg) no-repeat right top / 100%;
+     height: 38vw;
+     max-width: 62%;
+}
+ section.top-section .swiper .slider-img {
+     max-width: 912px;
+     width: 100%;
+     min-height: 400px;
+}
+ section.top-section .swiper .logos-img {
+     max-width: 151px;
+     width: 100%;
+     height: auto;
+     position: absolute;
+     left: 8%;
+     top: 50%;
+     transform: translateY(-50%);
+}
+ section.top-section .banner-main {
+     width: 100%;
+}
+/* **** end top section **** */
+/* ==== second section ===== */
+ section.second-section {
+     display: flex;
+     gap: 20px;
+     flex-wrap: wrap;
+     justify-content: center;
+     margin-top: 47px;
+}
+ section.second-section .card {
+     background: #000;
+     max-width: 385px;
+     width: 100%;
+     border: 1px solid #2f2f2f;
+     border-radius: 0px;
+}
+ section.second-section .card:hover {
+     border-color: #e72e2e;
+}
+ section.second-section .card-logo-1 {
+     width: 255px;
+     margin: auto;
+     padding: 40px 0;
+}
+ section.second-section .card-logo-2 {
+     width: 217px;
+     margin: auto;
+     padding-top: 49px;
+     padding-bottom: 38px;
+    /* padding: 40px 0;
+     */
+}
+ section.second-section .card-logo-3 {
+     width: 202px;
+     margin: 0 auto;
+     padding-top: 27px;
+     padding-bottom: 31px;
+}
+ section.second-section .card-logo-4 {
+     width: 156px;
+     margin: auto;
+     padding-top: 36px;
+     padding-bottom: 27px;
+}
+ section.second-section .card-logo-5 {
+     display: block;
+     width: 238px;
+     margin: auto;
+     padding-top: 40px;
+     padding-bottom: 41px;
+}
+ section.second-section .card-info {
+     padding: 24px 16px 16px 16px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 100%;
+}
+ section.second-section .card-text-primary {
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     line-height: 17.6px;
+     letter-spacing: 0.25em;
+     color: #767676;
+     text-transform: uppercase;
+}
+ section.second-section .card-text-primary:nth-child(3) {
+     margin-top: 6px;
+}
+ section.second-section h2 a {
+     text-decoration: none;
+     font-family: "Playfair Display", serif;;
+     font-size: 25px;
+     line-height: 33.32px;
+     letter-spacing: 0.14em;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 400;
+}
+ section.second-section .card-btn {
+     display: block;
+     text-align: center;
+     text-decoration: none;
+     background: #e72e2e;
+     width: 154px;
+     height: 43px;
+     border: none;
+     outline: none;
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     line-height: 43.6px;
+     letter-spacing: 0.25em;
+     color: #fff;
+     text-transform: uppercase;
+     margin-top: 12px;
+}
+ section.second-section .logo {
+     width: 103px;
+     height: 30px;
+}
+/* **** end second section **** */
+/* ==== third section ==== */
+ section.third-section {
+     border-top: 0px solid #2f2f2f;
+     margin-top: 57px;
+}
+ section.third-section h2 {
+     font-family: "Playfair Display", serif;;
+     font-size: 25px;
+     line-height: 33.32px;
+     letter-spacing: 0.14em;
+     text-align: center;
+     padding-top: 57px;
+     text-transform: uppercase;
+}
+ section.third-section .wrapper {
+     display: flex;
+     justify-content: left;
+     flex-wrap: wrap;
+     gap: 35px;
+     margin-top: 36px;
+}
+ section.third-section .box {
+     max-width: 273px;
+     width: 100%;
+}
+ section.third-section .box p {
+     margin-top: 10px;
+     padding-bottom: 12px;
+     font-family: "Montserrat", sans-serif;
+}
+ section.third-section .box a {
+     text-decoration: none;
+     color: #fff;
+}
+ section.third-section h3 {
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 17.6px;
+     letter-spacing: 0.25em;
+     text-align: center;
+     margin-top: 25px;
+     cursor: pointer;
+}
+ section.third-section .bottom-img {
+     margin-top: 57px;
+     padding-bottom: 84px;
+}
+ section.third-section .bottom-img-small {
+     display: none;
+}
+/* **** end third section **** */
+/* ============================== Page 2 ============================== */
+ section.page2-section1 {
+     margin-top: 55px;
+     position: relative;
+}
+ section.page2-section1 .title {
+     max-width: 472px;
+     margin: auto;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     margin-bottom: 56px;
+}
+ section.page2-section1 .title p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 15.26px;
+     font-weight: 400;
+     line-height: 19.19px;
+     letter-spacing: 0.14em;
+     text-transform: uppercase;
+     margin-top: 7px;
+}
+ section.page2-section1 .logo {
+     width: 177px;
+     height: 50px;
+}
+ section.page2-section1 .go-back {
+     position: absolute;
+     top: 12px;
+     left: 0;
+}
+ section.page2-section1 .go-back a {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+     text-decoration: none;
+}
+ section.page2-section1 .go-back p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25.2px;
+     letter-spacing: 0.25em;
+     color: #767676;
+     text-transform: uppercase;
+}
+ section.page2-section1 .flat-line {
+     background: #e72e2e;
+     height: 1px;
+     width: 384px;
+     margin: auto;
+}
+ section.page2-section2 {
+     border: 1px solid #2f2f2f;
+}
+ section.page2-section2 .image-wrapper {
+     position: relative;
+}
+ section.page2-section2 .info {
+     position: absolute;
+     bottom: 0;
+     left: 50%;
+     transform: translateX(-50%);
+     background: rgba(0,0,0,.8);
+     padding-bottom: 26px;
+     width: 100%;
+}
+ section.page2-section2 .info p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 17.6px;
+     letter-spacing: 0.25em;
+     text-align: center;
+     text-transform: uppercase;
+}
+ section.page2-section2 .info p:first-child {
+     padding-top: 32px;
+}
+ section.page2-section2 .info p:nth-child(2) {
+     margin-top: 7px;
+}
+ section.page2-section2 .info h2 {
+     font-family: "Playfair Display", serif;
+     margin: 0% auto;
+     font-size: 36px;
+     font-weight: 400;
+     line-height: 47.99px;
+     letter-spacing: 0.14em;
+     text-align: center;
+     margin-top: 14px;
+     margin-bottom: 12px;
+     text-transform: uppercase;
+}
+ section.page2-section2 .info a {
+     background: #e72e2e;
+     width: 210px;
+     height: 43px;
+     border: none;
+     outline: none;
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     line-height: 43.6px;
+     letter-spacing: 0.25em;
+     color: #fff;
+     text-transform: uppercase;
+     display: block;
+     margin: auto;
+     margin-top: 30px;
+     text-decoration: none;
+     text-align: center;
+}
+ section.page2-section2 .wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     column-gap: 19px;
+     row-gap: 24px;
+     margin-top: 56px;
+     padding: 0 33px;
+}
+ section.page2-section2 .wrapper .box {
+     max-width: 264px;
+     width: 100%;
+}
+ section.page2-section2 .wrapper span {
+     font-family: "Montserrat", sans-serif;
+     display: block;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 25.2px;
+     letter-spacing: 0.25em;
+     text-transform: uppercase;
+}
+ section.page2-section2 .wrapper span:first-child {
+     color: #767676;
+}
+ section.page2-section2 .desc {
+     margin-top: 48px;
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 19.6px;
+     padding: 0 33px;
+}
+section.page2-section2 .desc p{
+    line-height: 22px;
+}
+section.page2-section2 .desc h4{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+ section.page2-section2 .date {
+     margin-top: 30px;
+     padding: 0 33px 30px 33px;
+}
+ section.page2-section2 .date p {
+     font-family: "Montserrat", sans-serif;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 33.6px;
+     letter-spacing: 0.25em;
+     text-align: left;
+     text-transform: uppercase;
+}
+ section.page2-section2 .date p:first-child {
+     color: #767676;
+}
+ section.page2-section2 .date span {
+     color: #e72e2e;
+}
